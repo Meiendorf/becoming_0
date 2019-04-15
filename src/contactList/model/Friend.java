@@ -12,7 +12,7 @@ public class Friend extends Contact {
 
     @Override
     public String toString() {
-        return "Friend{" +
+        return "Friend {" +
                 "personal phone='" +personalPhone+ '\'' +
                 ", personal email='" + personalEmail + '\'' +
                 "} " + super.toString();

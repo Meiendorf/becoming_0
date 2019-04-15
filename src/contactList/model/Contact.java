@@ -1,6 +1,7 @@
 package contactList.model;
 
 public abstract class Contact {
+    private static int idGen = 0;
     private long id;
 
     private String firstName;
@@ -9,23 +10,26 @@ public abstract class Contact {
     private String email;
 
     public long getId() {return id;}
-    public void setId(long id){this.id = id;}
+    public void setId(){
+        id = idGen;
+        idGen++;
+    }
 
     public String getFirstName(){return firstName;}
-    public void SetFirstName(String name){firstName = name;}
+    public void setFirstName(String name){firstName = name;}
 
     public String geLastName(){return lastName;}
-    public void SetLastName(String name){lastName = name;}
+    public void setLastName(String name){lastName = name;}
 
     public String getPhone(){return phone;}
-    public void SetPhone(String number){phone = number;}
+    public void setPhone(String number){phone = number;}
 
     public String getEmailName(){return email;}
-    public void SetEmail(String name){this.email = email;}
+    public void setEmail(String email){this.email = email;}
 
     @Override
     public String toString() {
-        return "Contact{" +
+        return " Contact{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +

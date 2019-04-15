@@ -12,7 +12,7 @@ public class Colleague extends Contact{
 
     @Override
     public String toString() {
-        return "Colleague{" +
+        return "Colleague {" +
                 "department='" + department + '\'' +
                 ", company='" + company + '\'' +
                 "} " + super.toString();

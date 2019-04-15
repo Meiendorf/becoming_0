@@ -1,0 +1,6 @@
+Manifest-version : 1.0
+Created-by : Meiendorf
+Main-class : calculator.Main
+
+
+
