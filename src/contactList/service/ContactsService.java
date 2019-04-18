@@ -1,8 +1,9 @@
-package contactlist.service;
+package contactList.service;
 
-import contactlist.model.Contact;
-import contactlist.repository.ContactsRepository;
-import contactlist.repository.InMemoryRepo;
+import contactList.model.Colleague;
+import contactList.model.Contact;
+import contactList.repository.ContactsRepository;
+import contactList.repository.InMemoryRepo;
 
 import java.util.List;
 
