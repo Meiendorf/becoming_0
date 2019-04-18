@@ -1,6 +1,6 @@
-package contactList.repository;
+package contactlist.repository;
 
-import contactList.model.Contact;
+import contactlist.model.Contact;
 
 import java.util.List;
 

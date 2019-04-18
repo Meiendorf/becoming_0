@@ -1,4 +1,4 @@
-package contactList.controller;
+package contactlist.controller;
 
 public enum ContactTypes {
     Friend,

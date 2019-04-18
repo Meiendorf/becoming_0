@@ -1,8 +1,7 @@
-package contactList;
+package contactlist;
 
-import contactList.controller.Actions;
-import contactList.controller.ConsoleController;
-import contactList.controller.ContactsController;
+import contactlist.controller.ConsoleController;
+import contactlist.controller.ContactsController;
 
 public class App {
 

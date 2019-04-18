@@ -1,4 +1,4 @@
-package contactList.model;
+package contactlist.model;
 
 public class Friend extends Contact {
     private String personalPhone;

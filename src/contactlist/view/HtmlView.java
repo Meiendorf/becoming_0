@@ -1,4 +1,4 @@
-package contactList.view;
+package contactlist.view;
 
 public class HtmlView {
 }

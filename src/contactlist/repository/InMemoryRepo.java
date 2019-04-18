@@ -1,7 +1,7 @@
-package contactList.repository;
+package contactlist.repository;
 
 import com.sun.istack.internal.Nullable;
-import contactList.model.Contact;
+import contactlist.model.Contact;
 
 import java.util.ArrayList;
 import java.util.List;

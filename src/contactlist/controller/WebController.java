@@ -1,4 +1,4 @@
-package contactList.controller;
+package contactlist.controller;
 
 import javafx.scene.web.WebView;
 

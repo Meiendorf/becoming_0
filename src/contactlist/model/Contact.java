@@ -1,4 +1,4 @@
-package contactList.model;
+package contactlist.model;
 
 public abstract class Contact {
     private static int idGen = 0;

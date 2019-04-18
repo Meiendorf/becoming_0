@@ -1,4 +1,4 @@
-package contactList.model;
+package contactlist.model;
 
 public class Colleague extends Contact{
     private String department;

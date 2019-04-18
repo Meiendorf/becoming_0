@@ -1,10 +1,10 @@
-package contactList.controller;
+package contactlist.controller;
 
-import contactList.model.Colleague;
-import contactList.model.Contact;
-import contactList.model.Friend;
-import contactList.service.ContactsService;
-import contactList.view.ConsoleView;
+import contactlist.model.Colleague;
+import contactlist.model.Contact;
+import contactlist.model.Friend;
+import contactlist.service.ContactsService;
+import contactlist.view.ConsoleView;
 import org.jetbrains.annotations.Nullable;
 
 public class ConsoleController implements ContactsController {
