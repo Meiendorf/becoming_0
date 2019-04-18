@@ -3,7 +3,7 @@ package contactlist.controller;
 import contactlist.model.Colleague;
 import contactlist.model.Contact;
 import contactlist.model.Friend;
-import contactlist.service.ContactsService;
+import contactlist.servicee.ContactsService;
 import contactlist.view.ConsoleView;
 import org.jetbrains.annotations.Nullable;
 
